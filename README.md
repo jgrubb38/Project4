@@ -31,7 +31,7 @@ This histogram titled "Distribution of Residuals" visualizes the frequency of re
 <p align="center">
 <img src="Images/residuals_plot.jpg">
 </p>
-This residual plot shows the differences between observed and predicted gold prices. The data points, color-coded in green and red, mostly cluster around the horizontal zero line, indicating a generally good prediction accuracy. Green points represent more accurate predictions than red points. There's no apparent pattern of increasing or decreasing residuals with gold prices, suggesting consistent variance and a well-fitted model. Some outliers, particularly in the red, may require further investigation.  
+This residual plot shows the differences between observed and predicted gold prices. The data points, color-coded in green and red, mostly cluster around the horizontal zero line, indicating a generally good prediction accuracy. Green points represent when the predicted values are greater than the actual and red points indiciate when predicted values are greater than actual prices. There is a slightly greater variance as the gold prices increase, but overall it is suggesting consistent variance and a well-fitted model. Some outliers, particularly in the red, may require further investigation.  
 
 <p align="center">
 <img src="Images/features.jpg">
@@ -41,7 +41,7 @@ The "Feature Importance Plot" visualizes the significance of different features 
    - SLV has a very long bar, suggesting it is the most significant predictor in the model.  
    - USO has a moderately long bar, indicating a medium level of importance.  
    - SPX's bar is slightly longer than EUR/USD's, suggesting it has a low to moderate influence.  
-   The colors may represent different categories or types of features, but without a legend, it's unclear what they signify. The plot clearly communicates that SLV is the most influential feature in this model.  
+   The plot clearly communicates that SLV is the most influential feature in this model.  
 
 ## Summary
 The predictive model exhibits strong performance in forecasting gold prices, as evidenced by the dense clustering of residuals around zero and the strong correlation observed in the scatter plot of actual versus predicted prices. The distribution of residuals suggests that the model's errors are normally distributed and mostly contained within a range of -20 to 20, which is a sign of good predictive accuracy. The feature importance plot reveals that among the considered factors, silver prices are the most significant predictor of gold prices within this model, which could reflect market dynamics where precious metals often move in tandem. However, the presence of some larger residuals, particularly those coded in red, and the underprediction at higher gold price values, suggest areas where the model could potentially be improved. These could be due to external factors not accounted for in the model or nonlinear dynamics that the current model does not capture. This metrics-based analysis indicates a well-performing model but also highlights the need for continuous refinement, particularly by addressing the features corresponding to the larger residuals and the underpredictions at higher gold price values.  
