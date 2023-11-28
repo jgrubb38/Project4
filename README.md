@@ -13,9 +13,7 @@ Bootcamp: DU-VIRT-DATA-PT-06-2023
 ## About
 For Project 4, we built a supervised machine learning model using the Random Forest Regressor to predict gold prices. Random Forest Regressor is a popular machine learning algorithm for regression tasks, and it can be quite effective for predicting numerical values, such as gold prices. During training, it builds multiple decision trees and, when making predictions, outputs the average of the individual tree predictions. In essence, it leverages the collective wisdom of these trees to provide a more robust and accurate regression model.  
 
-<p>
-<img src="Images/Random Tree.jpg">
-</p>
+<img src="Images/RandomTree.png">
 
 ## Visualizations
 
