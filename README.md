@@ -16,6 +16,10 @@ For Project 4, we built a supervised machine learning model using the Random For
 <img src="Images/RandomTree.png">
 
 ## Visualizations
+<img src="Images/actual_vs_predicted.jpg">  
+<img src="Images/residual_distribution.jpg">
+<img src="Images/residuals_plot.jpg">  
+<img src="Images/features.jpg">  
 
 ## Summary
 
