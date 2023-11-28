@@ -31,7 +31,7 @@ This histogram titled "Distribution of Residuals" visualizes the frequency of re
 <p align="center">
 <img src="Images/residuals_plot.jpg">
 </p>
-This residual plot shows the differences between observed and predicted gold prices. The data points, color-coded in green and red, mostly cluster around the horizontal zero line, indicating a generally good prediction accuracy. Green points represent when the predicted values are greater than the actual and red points indiciate when predicted values are greater than actual prices. There is a slightly greater variance as the gold prices increase, but overall it is suggesting consistent variance and a well-fitted model. Some outliers, particularly in the red, may require further investigation.  
+This residual plot shows the differences between observed and predicted gold prices. The data points, color-coded in green and red, mostly cluster around the horizontal zero line, indicating a generally good prediction accuracy. Green points represent when the predicted values are less than the actual and red points indicate when predicted values are greater than actual. There is a slightly greater variance as the gold prices increase, but overall it is suggesting consistent variance and a well-fitted model. Some outliers, particularly in the red, may require further investigation.  
 
 <p align="center">
 <img src="Images/features.jpg">
